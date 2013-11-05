@@ -1,0 +1,25 @@
+{
+	"name": "sensei-detector",
+	"description": "Protect form your boss using Ninja blocks",
+	"version": "0.0.1",
+	"author": "Emmanuel Quentin",
+	"keywords": ["Protect", "boss", "Facebook"],
+	"repository": "",
+	"licence": "MIT",
+	"dependencies": {
+		"express": "3.0.0",
+		"express-partials": "0.0.6",
+		"imagemagick": "0.1.3",
+		"async": "0.2.9",
+		"socket.io": "0.9.16",
+		"socket.io-client": "0.9.16",
+		"yaml": "0.2.3",
+		"config": "0.4.27"
+	},
+	"engines": {
+		"node": "0.8.0"
+	},
+	"scripts": {
+		"start": "node app.js"
+	}
+}
