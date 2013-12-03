@@ -1,16 +1,15 @@
-var http        = require('http');
-var exec        = require('child_process').exec;
-var imagemagick = require('imagemagick');
-var async       = require('async');
-var io          = require('socket.io-client');
-var config      = require('config');
+var http            = require('http');
+var exec            = require('child_process').exec;
+var imagemagick     = require('imagemagick');
+var async           = require('async');
+var io              = require('socket.io-client');
+var config          = require('config');
 
 // Configuration
-var distantAppUrl = 'http://hostname.com';
-var socket      = io.connect();
+var distantAppUrl   = 'http://hostname.com';
+var socket          = io.connect();
 
 socket.on('status', function(status){
-
 	if(status.exit == 1){
 		lockScreen();
 	}else if(status.boss == 1){

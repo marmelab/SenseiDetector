@@ -33,8 +33,8 @@ function setExitStatus(){
 
 // Called to change the Ninja Blocks eyes
 function setAlarmStatus(status, cb){
-	var path = status ? '/rest/v0/device/WEBHOOK_0_0_108/subdevice/nGoSH/tickle/0wc7KLocSFFYOKJnypZGIbwDYs6wDyEpQNc1hYathfY' :
-			'/rest/v0/device/WEBHOOK_0_0_108/subdevice/qwdld/tickle/UWxgOwZ1VtNMqDy1t5vYGn3l8cHppoOpyXlk51HOE';
+	var path = status ? '/rest/v0/device/WEBHOOK_0_0_108/subdevice/nGoSH/tickle/xxx' :
+			'/rest/v0/device/WEBHOOK_0_0_108/subdevice/qwdld/tickle/xxx';
 
 	var sendSMSOptions = {
 		hostname: 'api.ninja.is',
